@@ -1,0 +1,82 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;}
+
+li {
+    display:inline;}
+
+nav {
+    position:fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+    background-color: grey;
+    font-size:20pt;
+    height: 40pt;
+    font-weight: bold;}
+
+.nav-logo {
+    display:inline-block;
+    padding:7pt;}
+
+.nav-links {
+    display:inline-block;
+    float: right;
+    color: purple;
+    margin:0;
+    padding:7pt;}
+
+.search {
+    position:fixed;
+    left:0px;
+    top:60pt;
+    width:100%;}
+
+form input {
+    border:1px solid grey;
+    margin-bottom:2%;
+    margin-left:35px;
+    height: 31px;
+    width: 50%;
+    font-size:large;
+    border-radius:4px;}
+
+form img {
+    height:30px;
+    border:1px solid grey;
+    margin-left:0.5%;
+    border-radius:4px;
+    position: absolute;}
+
+.results-navlinks {
+    position:fixed;
+    left:0px;
+    top:90pt;
+    border: 1px solid grey;
+    border-radius:4px;
+    margin-left:35px;
+    display:inline;
+    font-weight: bold;
+    padding:6px;}
+
+.results-navlinks li:nth-child(2) {
+    border-right:1px solid grey;
+    border-left:1px solid grey;
+    padding:7px;}
+
+.results {
+    position:fixed;
+    left:0px;
+    top:100pt;
+    margin-top:50px;}
+
+.results li:nth-child(1) {
+    color:grey;}
+
+.results li:nth-child(2) {
+    color:blue;
+    font-size:large;
+    font-weight: bold;}
+
+.results li:nth-child(3) {
+    color:grey;}
